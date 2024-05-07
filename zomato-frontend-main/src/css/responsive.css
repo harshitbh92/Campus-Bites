@@ -1,0 +1,106 @@
+/*home page*/
+@media (min-width:991px){
+  .box .right article{
+    margin-left:23px;
+
+  }
+  #slideShow  .modal-dialog{
+    width: 30%;
+}
+  .pagenotfound{
+    width:50%!important;
+   margin-top:7%;
+  }
+  .box .right{
+    position:relative;
+    
+}
+.box .right .pagging{
+  margin-top: 33px;
+    position: absolute;
+    bottom: 0;
+    LEFT: 34%;
+}
+.filterbox input{
+  height: 48px;
+    border-radius: 0;
+}
+}
+@media (max-width:991px){
+  #slideShow  .modal-dialog{
+    width: 50%;
+}
+  .no-merchant-img{
+    width:90%;
+  }
+  .top-header .svg{
+    top: 13px;
+  }
+  .box .left { 
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .text-head {
+    font-size: 26px;
+}
+  .restaurant-main-image {
+    height: 54vh;
+}
+}
+@media only screen and (max-width:776px){
+  .box .left{
+    width: 94%;
+
+  }
+ 
+}
+@media (max-width:575px){
+ 
+  .restaurant-main-image img{
+    height:100%;
+  }
+  .restaurant-main-image{
+  height:40vh;
+  }
+    .cus-w{
+      width:90%!important;   
+    }
+    #slideShow  .modal-dialog{
+      width: 70%;
+  margin: 0 auto;
+  }
+    /* .logo{
+      width: 100px;
+      height: 100px;
+    } */
+    .findtext{
+    font-size: 24px;
+    }
+    main{
+      padding:0 11px;
+    }
+    .cus-card .card-body{
+      padding-top:.8rem!important;
+    }
+    header{
+      padding: 19px 13px;
+    }
+    .food-img{
+      width:113px;
+      overflow: hidden;
+      border-radius: 20px;
+      height:auto;
+    }
+    .food-img img{
+      height: 81px;
+    }
+    .right-up, .right-down {
+      padding: 18px 13px;
+    }
+    .food-text .heading {
+     font-size: 20px;
+    }
+    .right-up-box .text-edu-light{
+   font-size: .9em;
+    }
+  }
